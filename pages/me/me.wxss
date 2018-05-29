@@ -1,0 +1,28 @@
+.flexT {
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-flow: wrap-reverse;
+  justify-content: space-between;
+  
+  
+}
+
+.flex1 {
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.justifyContent{
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start
+}
+
+.item{
+  order: 1;
+  flex-grow: 2;
+  flex-shrink: 1;
+  flex-basis: auto;
+  flex: auto;
+  align-self: auto;
+}

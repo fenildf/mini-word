@@ -1,0 +1,40 @@
+<view>
+  <text>我的页面</text>
+
+  <text>hello{{msg}}</text>
+  <button bindtap='click'>click</button>
+
+  <button bindtap='click2'>click</button>
+
+  <view>{{text}}</view>
+  <button bindtap="changeText"> Change normal data </button>
+
+  <view>{{num}}</view>
+  <button bindtap="changeNum"> Change normal num </button>
+
+  <view>{{array[0].text}}</view>
+  <button bindtap="changeItemInArray"> Change Array data </button>
+
+  <view>{{object.text}}</view>
+  <button bindtap="changeItemInObject"> Change Object data </button>
+
+  <view>{{newField.text}}</view>
+  <button bindtap="addNewField"> Add new data </button>
+
+  <!-- <navigator open-type='navigateTo'></navigator> -->
+
+  <!-- <navigator open-type='navigateBack'></navigator>
+  <navigator open-type='switchTab'></navigator>
+  <navigator open-type='redirect'></navigator> -->
+
+  <block wx:for="{{[1, 2, 3]}}" wx:key="ffff">
+    <view> {{index}}: </view>
+    <view> {{item}} </view>
+  </block>
+
+  <navigator open-type='navigate' url='../course/courseArrangement'>
+    导航
+    <view>导航2</view>
+
+  </navigator>
+</view>
