@@ -19,7 +19,7 @@
   <button bindtap="changeItemInObject"> Change Object data </button>
 
   <view>{{newField.text}}</view>
-  <button bindtap="addNewField"> Add new data </button>
+  <button bindtap="addNewField" hover-class='none'> Add new data </button>
 
   <!-- <navigator open-type='navigateTo'></navigator> -->
 
@@ -37,4 +37,9 @@
     <view>导航2</view>
 
   </navigator>
+
+  <view>
+  </view>
+  <image>
+  </image>
 </view>

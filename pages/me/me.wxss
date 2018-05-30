@@ -26,3 +26,11 @@
   flex: auto;
   align-self: auto;
 }
+
+.imgContainer{
+
+}
+
+.img{
+  
+}
