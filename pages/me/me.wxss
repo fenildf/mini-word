@@ -28,9 +28,10 @@
 }
 
 .imgContainer{
+  flex-direction: row;
 
 }
 
 .img{
-  
+  flex-direction: row;
 }
