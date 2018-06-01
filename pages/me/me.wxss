@@ -53,6 +53,7 @@
 
 .Grid-cell {
   flex: 1;
+  background: greenyellow;
 }
 
 .Grid-cell.u-full {

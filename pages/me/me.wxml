@@ -39,7 +39,7 @@
     <view>Bottom</view>
   </view>
 
- <view class='Grid'>
+  <view class='Grid'>
     <view class='Grid-cell u-1of4'>一半</view>
     <view class='Grid-cell'>剩余平分</view>
     <view class='Grid-cell u-1of3'>剩余平分</view>
