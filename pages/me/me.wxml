@@ -27,19 +27,22 @@
   <navigator open-type='switchTab'></navigator>
   <navigator open-type='redirect'></navigator> -->
 
-  <block wx:for="{{[1, 2, 3]}}" wx:key="ffff">
-    <view> {{index}}: </view>
-    <view> {{item}} </view>
-  </block>
-
   <navigator open-type='navigate' url='../course/courseArrangement'>
     导航
     <view>导航2</view>
 
   </navigator>
 
-  <view>
+  <view class='Site'>
+    <view>Header</view>
+    <view class='SiteContent'>Content</view>
+    <view>Bottom</view>
   </view>
-  <image>
-  </image>
+
+ <view class='Grid'>
+    <view class='Grid-cell u-1of4'>一半</view>
+    <view class='Grid-cell'>剩余平分</view>
+    <view class='Grid-cell u-1of3'>剩余平分</view>
+  </view>
+
 </view>

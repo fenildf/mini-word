@@ -122,5 +122,9 @@ Page({
     wx.navigateTo({
       url: '',
     })
+  },
+
+  add:function(){
+    
   }
 })

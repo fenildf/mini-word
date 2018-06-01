@@ -35,3 +35,42 @@
 .img{
   flex-direction: row;
 }
+
+.Site{
+  display: flex;
+  height: 200rpx;
+  flex-direction: column;
+}
+
+.SiteContent{
+  flex: 1;
+  background: #f8f8f8;
+}
+
+.Grid {
+  display: flex;
+}
+
+.Grid-cell {
+  flex: 1;
+}
+
+.Grid-cell.u-full {
+  flex: 0 0 100%;
+  background: #f8f8f8;
+}
+
+.Grid-cell.u-1of2 {
+  flex: 0 0 50%;
+  background: #dddddd;
+}
+
+.Grid-cell.u-1of3 {
+  flex: 0 0 33.3333%;
+  background: #d8d800;
+}
+
+.Grid-cell.u-1of4 {
+  flex: 0 0 25%;
+  background: #d8d8d8;
+}
