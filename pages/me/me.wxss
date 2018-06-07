@@ -3,8 +3,6 @@
   flex-wrap: wrap;
   flex-flow: wrap-reverse;
   justify-content: space-between;
-  
-  
 }
 
 .flex1 {
@@ -12,13 +10,13 @@
   justify-content: space-between;
 }
 
-.justifyContent{
+.justifyContent {
   justify-content: flex-start;
   align-items: flex-start;
-  align-content: flex-start
+  align-content: flex-start;
 }
 
-.item{
+.item {
   order: 1;
   flex-grow: 2;
   flex-shrink: 1;
@@ -27,22 +25,21 @@
   align-self: auto;
 }
 
-.imgContainer{
-  flex-direction: row;
-
-}
-
-.img{
+.imgContainer {
   flex-direction: row;
 }
 
-.Site{
+.img {
+  flex-direction: row;
+}
+
+.Site {
   display: flex;
   height: 200rpx;
   flex-direction: column;
 }
 
-.SiteContent{
+.SiteContent {
   flex: 1;
   background: #f8f8f8;
 }
@@ -63,7 +60,7 @@
 
 .Grid-cell.u-1of2 {
   flex: 0 0 50%;
-  background: #dddddd;
+  background: #ddd;
 }
 
 .Grid-cell.u-1of3 {
@@ -76,7 +73,31 @@
   background: #d8d8d8;
 }
 
-.SS{
+.SS {
   display: flex;
-  
+}
+
+.FlexAlignItemsContainer {
+  display: flex;
+  margin-top: 20rpx;
+  background: #d8d800;
+  align-items: center;
+}
+
+.FlexAlignItemsChild {
+  background: red;
+  align-self: center;
+  flex: 0 0 25%;
+}
+
+.FlexAlignItemsChild2 {
+  font-size: 62rpx;
+  background: gray;
+  flex: 0 0 25%;
+}
+
+.FlexAlignItemsChild3 {
+  background: blue;
+  order: -1;
+  flex: 0 0 50%;
 }

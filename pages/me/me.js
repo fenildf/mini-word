@@ -43,25 +43,6 @@ Page({
     common.sayHello("张三")
   },
 
-  changeItemInArray: function () {
-    // you can use this way to modify a danamic data path
-    this.setData({
-      'array[0].text': 'changed data'
-    })
-  },
-
-  changeItemInObject: function () {
-    this.setData({
-      'object.text': 'changed data'
-    });
-  },
-
-  addNewField: function () {
-    this.setData({
-      'newField.text': 'new data'
-    })
-  },
-
   /**
    * 生命周期函数--监听页面加载
    */
@@ -116,12 +97,6 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-
-  click2: function () {
-    wx.navigateTo({
-      url: '',
-    })
   },
 
   add:function(){

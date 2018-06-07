@@ -4,23 +4,6 @@
   <text>hello{{msg}}</text>
   <button bindtap='click'>click</button>
 
-  <button bindtap='click2'>click</button>
-
-  <view>{{text}}</view>
-  <button bindtap="changeText"> Change normal data </button>
-
-  <view>{{num}}</view>
-  <button bindtap="changeNum"> Change normal num </button>
-
-  <view>{{array[0].text}}</view>
-  <button bindtap="changeItemInArray"> Change Array data </button>
-
-  <view>{{object.text}}</view>
-  <button bindtap="changeItemInObject"> Change Object data </button>
-
-  <view>{{newField.text}}</view>
-  <button bindtap="addNewField" hover-class='none'> Add new data </button>
-
   <!-- <navigator open-type='navigateTo'></navigator> -->
 
   <!-- <navigator open-type='navigateBack'></navigator>
@@ -43,6 +26,20 @@
     <view class='Grid-cell u-1of4'>一半</view>
     <view class='Grid-cell'>剩余平分</view>
     <view class='Grid-cell u-1of3'>剩余平分</view>
+  </view>
+
+  <view class='FlexAlignItemsContainer'>
+    <view class='FlexAlignItemsChild'>
+      内容
+    </view>
+
+    <view class='FlexAlignItemsChild2'>
+      内容
+    </view>
+
+    <view class='FlexAlignItemsChild3'>
+      内容3333
+    </view>
   </view>
 
 </view>
