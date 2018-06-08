@@ -101,3 +101,14 @@
   order: -1;
   flex: 0 0 50%;
 }
+
+
+/* display: none; */
+.Display1{
+  position: relative;
+  left: 40rpx;
+}
+
+.Display2{
+  
+}

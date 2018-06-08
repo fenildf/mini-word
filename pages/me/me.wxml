@@ -12,8 +12,6 @@
 
   <navigator open-type='navigate' url='../course/courseArrangement'>
     导航
-    <view>导航2</view>
-
   </navigator>
 
   <view class='Site'>
@@ -42,4 +40,12 @@
     </view>
   </view>
 
+  <view class='Display1'>
+    Display属性改变生成框的类型
+    
+  </view>
+
+  <view class='Display2'>
+    Display属性改变生成框的类型2
+  </view>
 </view>
